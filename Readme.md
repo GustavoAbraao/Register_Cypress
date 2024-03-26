@@ -6,6 +6,10 @@ Este repositório contém testes automatizados escritos usando Cypress para test
 
 Antes de executar os testes, certifique-se de ter  o Node.js e o gerenciador de pacotes npm instalados em seu sistema. Você pode fazer o download e instalar o Node.js a partir do [site oficial](https://nodejs.org/). 
 
+Além disso, é necessário ter o Faker instalado para gerar dados falsos durante os testes. Você pode instalá-lo utilizando o npm:
+
+`npm install @faker-js/faker --save-dev`
+
 Execute o comando npm install (ou npm i para a versão curta) para instalar as dependências de desenvolvimento.
 
 ## Instalação
@@ -18,7 +22,7 @@ Execute o comando npm install (ou npm i para a versão curta) para instalar as d
 
 3. Abra o terminal do Visual Studio Code e instale o Cypress na sua máquina, para que seja instalado a pasta "node_modules":
 
-``npm install cypress --save-dev``
+`npm install cypress --save-dev`
 
 4. Após isso, ainda no terminal do Visual Studio Code, rode os testes do cypress em modo headless por esse comando:
 
